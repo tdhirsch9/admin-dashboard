@@ -6,22 +6,32 @@
     <title>Admin Dashboard</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
+<body>
+
 <div class="container">
+
+
 <header class="dashboard-header">
-<form action='' method='get' class='search-form'>
-<label for="search"></label>
-<input id="search" name="search" type="text">
-</form>
+
+    <form action='' method='get' class='search-form'>
+            <div class="search-bar">
+                
+                <label for="search"><img src="/images/magnify.svg" class="magnify-icon"></label>
+                <input id="search" name="search" type="text">
+        </div>
+    </form>
 
 <div class="bell-logo-username-container">
-<img class="bell-icon">
-<img class="logo">
-<h1>Penguini Linguine</h1>
+    <img src="/images/bell-ring-outline.svg" class="bell-icon">
+    <img src="../images/penguin.png" class="logo">
+    <h3 class="username">Penguini Linguine</h3>
 </div>
 
 <div class="user-greetings">
-    <img class="logo">
+    <img src="../images/penguin.png" class="user-logo">
+    <div class="greetings">
     <p>Hi there, <h2>Penguini Linguine (@penguini)</h2></p>
+    </div>
 </div>
 
 <div class="buttons">
@@ -32,134 +42,228 @@
 
 </header>
 
-<body>
+
     
 <div class="sidebar">
+    <div class="side-bar-items-container">
     <div class="title-container">
-    <img class="dash-board-img">
-    <h3 class="dashboard-title">Dashboard</h3>
+    <img src="images/view-dashboard.svg" class="dashboard-img">
+    <h2 class="dashboard-title">Dashboard</h2>
     </div>
 
     <div class="sidebar-links">
 
-    <ul>
 
-    <li><img class="home">Home</li>
-    <li><img class="profile">Profile</li>
-    <li><img class="messages">Messages</li>
-    <li><img class="history">History</li>
-    <li><img class="tasks">Tasks</li>
-    <li><img class="communities">Communities</li>
-    <li><img class="settings">Settings</li>
-    <li><img class="support">Support</li>
-    <li><img class="privacy">Privacy</li>
+    <div>   
+    <ul class="first-sidebar-link-list">
+
+    <li class="sidebar-item">
+        <img src="images/home.svg" class="home">
+        <span class="list-text">Home</span>
+    </li>
+    <li class="sidebar-item">
+        <img src="images/card-account-details-outline.svg" class="profile">
+        <span class="list-text">Profile</span>
+    </li>
+    <li class="sidebar-item">
+        <img src="images/message-reply-outline.svg" class="messages">
+        <span class="list-text">Messages</span>
+    </li>
+    <li class="sidebar-item">
+        <img src="images/clock-time-three-outline.svg" class="history">
+        <span class="list-text">History</span>
+    </li>
+    <li class="sidebar-item">
+        <img src="images/file-multiple-outline.svg" class="tasks">
+        <span class="list-text">Tasks</span>
+    </li>
+    <li class="sidebar-item">
+        <img src="images/account-group.svg" class="communities">
+        <span class="list-text">Communities</span>
+    </li>
     </ul>
-
     </div>
 
+    <div>
+     <ul class="second-sidebar-link-list">  
+    <li class="sidebar-item">
+        <img src="images/cog.svg" class="settings">
+        <span class="list-text">Settings</span>
+    </li>
+    <li class="sidebar-item">
+        <img src="images/help-box-outline.svg" class="support">
+        <span class="list-text">Support</span>
+    </li>
+    <li class="sidebar-item">
+        <img src="images/shield-check-outline.svg" class="privacy">
+        <span class="list-text">Privacy</span>
+    </li>
+    </ul> 
 
+    </div>
+    
 
+    </div>
+</div>
 </div>
 
 <div class="main-content">
 
+<h1 class="projects-title">Your Projects</h1>
+
 <div class="projects">
-    <h1>Your Projects</h1>
-    <div class="card">
+ 
+    <div class="first-three-projects">
+
+    
+    
+    
+    <div class="projects-card card">
         <p class="card-title">Super Cool Project</p>
-        <p></p>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna molestie at elementum eu. Sit amet purus gravida quis blandit.</p>
         <div class="card-buttons">
-            <img class="star">
-            <img class="eye">
-            <img class="share">
+            <img src="images/star-plus-outline.svg" class="star">
+            <img src="images/eye-plus-outline.svg" class="eye">
+            <img src="images/share-variant-outline.svg" class="share">
         </div>
     </div>
 
-    <div class="card">
-        <p class="card-title">Less Cool Project</p>
-        <p></p>
-        <div class="card-buttons">
-            <img class="star">
-            <img class="eye">
-            <img class="share">
-        </div>
-    </div>
 
-    <div class="card">
+
+    <div class="projects-card card">
         <p class="card-title">Impossible App</p>
-        <p></p>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fringilla ut morbi tincidunt augue interdum. Magna eget est lorem ipsum dolor sit.</p>
         <div class="card-buttons">
-            <img class="star">
-            <img class="eye">
-            <img class="share">
+            <img src="images/star-plus-outline.svg" class="star">
+            <img src="images/eye-plus-outline.svg" class="eye">
+            <img src="images/share-variant-outline.svg" class="share">
         </div>
     </div>
 
-    <div class="card">
-        <p class="card-title">Easy Peasy App</p>
-        <p></p>
-        <div class="card-buttons">
-            <img class="star">
-            <img class="eye">
-            <img class="share">
-        </div>
-    </div>
-
-    <div class="card">
+    <div class="projects-card card">
         <p class="card-title">Ad Blocker</p>
-        <p></p>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet mattis vulputate enim nulla aliquet porttitor lacus luctus. Adipiscing vitae proin sagittis nisl.</p>
         <div class="card-buttons">
-            <img class="star">
-            <img class="eye">
-            <img class="share">
-        </div>
-    </div>
-
-    <div class="card">
-        <p class="card-title">Money Maker</p>
-        <p></p>
-        <div class="card-buttons">
-            <img class="star">
-            <img class="eye">
-            <img class="share">
+            <img src="images/star-plus-outline.svg" class="star">
+            <img src="images/eye-plus-outline.svg" class="eye">
+            <img src="images/share-variant-outline.svg" class="share">
         </div>
     </div>
 </div>
 
-<div class="announcements">
+
+<div class="second-three-projects">
+    <div class="projects-card card">
+        <p class="card-title">Less Cool Project</p>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim sit amet venenatis urna cursus eget. Ornare arcu odio ut sem nulla pharetra diam.</p>
+        <div class="card-buttons">
+            <img src="images/star-plus-outline.svg" class="star">
+            <img src="images/eye-plus-outline.svg" class="eye">
+            <img src="images/share-variant-outline.svg" class="share">
+        </div>
+    </div>
+
+    <div class="projects-card card">
+        <p class="card-title">Easy Peasy App</p>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At augue eget arcu dictum. Gravida in fermentum et sollicitudin ac orci phasellus.</p>
+        <div class="card-buttons">
+            <img src="images/star-plus-outline.svg" class="star">
+            <img src="images/eye-plus-outline.svg" class="eye">
+            <img src="images/share-variant-outline.svg" class="share">
+        </div>
+    </div>
 
 
-    <h1>Announcements</h1>
-    <div class="announcements-card">
+
+    <div class="projects-card card">
+        <p class="card-title">Money Maker</p>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vel facilisis volutpat est velit egestas dui id ornare arcu. Diam donec adipiscing tristique risus nec.</p>
+        <div class="card-buttons">
+            <img src="images/star-plus-outline.svg" class="star">
+            <img src="images/eye-plus-outline.svg" class="eye">
+            <img src="images/share-variant-outline.svg" class="share">
+        </div>
+    </div>
+</div>
+</div>
+
+<h1 class="announcements-title">Announcements</h1>
+<div class="announcements-trending">
+
+
+
+
+    
+    <div class="announcements-card card">
+        <div class="first-announcement announcements-content">
         <p class="card-title">Site Maintenance</p>
-        <p></p>
+        <p class="linebreak announcement-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+
+        <div class="second-announcement announcements-content">
         <p class="card-title">Community Share Day</p>
-        <p></p>
+    
+        <p class="linebreak announcement-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+
+        <div class="third-announcement announcements-content">
         <p class="card-title">Updated Privacy Policy</p>
-        <p></p>
+        <p class="announcement-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+
     </div>   
 
-</div>
 
-<div class="Trending">
 
-    <h1>Trending</h1>
-    <div class="trending-card">
+<h1 class="trending-title">Trending</h1>
+
+
+
+    
+    <div class="trending-card card">
+        
+        
+        
+        <img src="images/bird.svg" class="trending-card-images image-one">
+        
+        <div class="first-trending">
         <p class="@user">@tegan</p>
         <p>World Peace Builder</p>
+        </div>
+        
+
+        
+        <img src="images/penguin.png" class="trending-card-images image-two">
+       
+        <div class="second-trending">
         <p class="@user">@penguini</p>
         <p>Super Cool Project</p>
+        </div>
+
+        
+        <img src="images/penguin.svg" class="trending-card-images image-three">
+
+        <div class="third-trending">
         <p class="@user">@kendall</p>
         <p>Life Changing App</p>
+        </div>
+
+        
+        <img src="images/dog.svg" class="trending-card-images image-four">
+        
+        <div class="fourth-trending">
         <p class="@user">@alex</p>
-        <p>No Traffic Maker</p>
+        <p> No Traffic Maker</p>
+        
+        </div>
+
     </div>   
 
+
+
 </div>
 
 </div>
-
-
 
 
 
